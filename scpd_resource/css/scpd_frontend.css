@@ -1,0 +1,130 @@
+.prod_box{
+  width:180px;
+  height: 320px;
+  float: left;
+  border: solid 1px #e1e1e1;
+  /*border-bottom: solid 5px #0099ff;*/
+  padding: 8px;
+  margin: 5px;
+  position: relative;
+}
+
+.prod_box a{
+  text-decoration: none !important;
+}
+
+.prod_box_img{
+  width: 100%;
+  height: 180px;
+}
+.prod_box .prod_box_img img{
+  border-radius: 0px;
+  box-shadow: none;
+  width: 180px;
+}
+
+.prod_box .prod_box_title{
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.prod_box .prod_box_title a{
+  color: #666 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.prod_box .prod_box_sku{
+  text-align: center;
+  color:#666;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.prod_box .prod_box_price{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6600;
+}
+
+.prod_box .prod_box_button{
+  width: 90%;
+  height: 30px;
+  position: absolute;
+  bottom: 5px;
+  text-align: right;
+}
+
+.prod_box_button a.prod_customize{
+/*  display: block;*/
+  width:50%;
+  padding: 5px 10px;
+  background: #ccc;
+  color: #fff !important;
+  font-weight: bold;
+  /*border-radius: 4px;*/
+}
+
+.prod_box_button a.prod_customize:hover{
+  background: #0099ff;
+}
+
+/* cart page */
+
+.scpd_cart_container{
+  width: 100%;
+}
+.scpd_cart_container table{
+  width: 100%;
+}
+.scpd_cart_container table tr th{
+  background: #e1e1e1;
+  border: solid 1px #ccc;
+  text-align: center;
+  padding: 5px 0px;
+}
+.scpd_cart_container table tr td{
+  border: solid 1px #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.scpd_cart_container table tr td img{
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.scpd_cart_container table tr td.scpd_cart_total_cell{
+  text-align: right;
+  font-weight: bold;
+}
+
+.scpd_cart_container table tr td.scpd_cart_btns{
+  text-align: right;
+  vertical-align: top;
+}
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_clear_cart_btn{
+  margin-right: 10px;
+}
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_cart_checkout_btn{
+  margin-left: 10px;
+}
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_submit_cart_btn,
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_clear_cart_btn,
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_cart_checkout_btn{
+  background: #ccc;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.42857;
+  padding: 7px 10px;
+}
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_submit_cart_btn:hover,
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_clear_cart_btn:hover,
+.scpd_cart_container table tr td.scpd_cart_btns button.scpd_cart_checkout_btn:hover{
+  background: #0099ff;
+}

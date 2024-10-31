@@ -1,0 +1,32 @@
+/* WP Custom Product Admin Style */
+
+#poststuff .scpd_settings h2{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.transition {
+  -webkit-transform: scale(4.4); 
+  -moz-transform: scale(4.4);
+  -o-transform: scale(4.4);
+  transform: scale(4.4);
+	z-index: 50;
+	position:absolute;
+}
+
+.scpd_txt_align_right{
+  text-align: right;
+}
+
+.scpd-post-box{
+  width:49.5%;
+  min-width: 255px;
+  float:left;
+}
+.scpd_margin_right{
+  margin-right: 1%;
+}
+
+.scpd-post-box table th{
+  text-align: left;
+}
